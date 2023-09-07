@@ -1,9 +1,9 @@
 from playwright.sync_api import sync_playwright
 import time
 import json
-# target_url = "https://www.amazon.co.jp/s?k=%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%83%87%E3%82%B9%E3%82%AF&crid=1J3LGN400GBUT&sprefix=%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%2Caps%2C205&ref=nb_sb_ss_ts-doa-p_1_4"
-# target_url = "https://www.amazon.co.jp/s?k=%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%81%E3%82%A7%E3%82%A2&i=kitchen&crid=153E7KC2NS5XJ&sprefix=g%2Ckitchen%2C161&ref=nb_sb_ss_ts-doa-p_1_1"
-target_url = "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%8B%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3&crid=2O01P0LNAHWA0&sprefix=%E3%81%BF%E3%81%AB%2Caps%2C170&ref=nb_sb_ss_ts-doa-p_2_2"
+# target_url = 'https://www.amazon.co.jp/s?k=iphone%E3%82%B1%E3%83%BC%E3%82%B9&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=WZP8S0OOZKXK&sprefix=iphone%E3%82%B1%E3%83%BC%E3%82%B9%2Caps%2C171&ref=nb_sb_noss_1'
+amazon_url = 'https://www.amazon.co.jp'
+search_keyword = 'iphoneケース'
 
 dev_writefile_flag = True
 out = {}
@@ -12,24 +12,32 @@ start_time = time.time()
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)
     # browser = p.chromium.launch()
-    global page  # グローバル変数を使うことを宣言
+    # global page  # グローバル変数を使うことを宣言
     page = browser.new_page()
-    page.goto(target_url)  # ここに対象のURLを入力してください
-
+    page.goto(amazon_url)  
+    page.wait_for_load_state()
+    page.fill('input#twotabsearchtextbox', search_keyword)
+    page.press('input#twotabsearchtextbox', 'Enter')
+    page.wait_for_load_state()
+    print(page.url)
     # page.press('body', 'End')
     page.keyboard.press('PageDown')
-    time.sleep(13)
+    time.sleep(3)
 
     page.wait_for_load_state()
+    hit_count_element = page.query_selector('.a-section.a-spacing-small.a-spacing-top-small').inner_text()
+    print(hit_count_element)
     sectionCards = page.query_selector_all('.a-section.a-spacing-base')
 
     out['sectionCards'] = []
     for index, card in enumerate(sectionCards):
-        print(index+1)
-        temp_card = {'id': index+1,'recommended':False ,'imageUrl': '','sponsored': False,'title': '','stars': '', 'ratingsCount': '',
-                      'sales':'','price': '', 'pre_price': ''}
+        indexPlus1 = index+1
+        print(indexPlus1)
+        temp_card = {'id': indexPlus1, 'recommended': False, 'imageUrl': '', 'sponsored': False, 'title': '', 'stars': '', 'ratingsCount': '',
+                     'sales': '', 'price': '', 'pre_price': '', 'coupon': False, 'coupon_text': '','prime': False}
         # recommended
-        recommended_element = card.query_selector('[data-a-badge-color="sx-gulfstream"].a-badge-label > .a-badge-label-inner.a-text-ellipsis')    
+        recommended_element = card.query_selector(
+            '[data-a-badge-color="sx-gulfstream"].a-badge-label > .a-badge-label-inner.a-text-ellipsis')
         if recommended_element:
             recommended_text = recommended_element.inner_text()
             print(recommended_text)
@@ -42,48 +50,71 @@ with sync_playwright() as p:
             temp_card['imageUrl'] = image_element.get_attribute('src')
 
         # sponsored
-        sponsored_element = card.query_selector('.puis-label-popover-default > .a-color-secondary')
+        sponsored_element = card.query_selector(
+            '.puis-label-popover-default > .a-color-secondary')
         if sponsored_element:
             sponsored_text = sponsored_element.inner_text()
             if sponsored_text == 'スポンサー':
                 temp_card['sponsored'] = True
-        
+
         # title
         title_element = card.query_selector(
             '.a-size-base-plus.a-color-base.a-text-normal')
         if title_element:
             title = title_element.inner_text()
             temp_card['title'] = title
-        # stars
-        # stars_element = card.query_selector('.a-size-base[class^="puis-"][class$="-text"]') # 先頭、末尾の文字列で検索
-        stars_element = card.query_selector('.a-icon-alt') 
-        if stars_element:            
-            temp_card['stars'] = stars_element.inner_text()
 
-        # ratingsCount
-        ratingsCount_element = card.query_selector('.a-size-base.s-underline-text')
-        if ratingsCount_element:
-            ratingsCount_text = ratingsCount_element.inner_text()
-            temp_card['ratingsCount'] = ratingsCount_text
-        # timesale
-        timesale_element = card.query_selector('[data-a-badge-color="sx-lightning-deal-red"].a-badge-label > .a-badge-label-inner.a-text-ellipsis')
-        if timesale_element:
-            timesale_text = timesale_element.inner_text()
-            temp_card['sales'] = timesale_text
+        # stars
+        # ratingsCount 
+        # 2.8K+となる場合、￥1,450\n￥1,450価格になる場合があるので、属性の値を取得する
+        aria_label_elements = card.query_selector_all(
+            '.a-row.a-size-small > span[aria-label]')
+        if aria_label_elements:
+            temp_card['stars'] = aria_label_elements[0].get_attribute('aria-label')
+            temp_card['ratingsCount'] = aria_label_elements[1].get_attribute('aria-label')
+        else:print('評価なし')
+        # sales
+        sales_element = card.query_selector(
+            '[data-a-badge-color="sx-lightning-deal-red"].a-badge-label > .a-badge-label-inner.a-text-ellipsis')
+        if sales_element:
+            sales_text = sales_element.inner_text()
+            temp_card['sales'] = sales_text
+        # price
+        price_element = card.query_selector('.a-price-whole')
+        if price_element:
+            price_text = price_element.inner_text()
+            temp_card['price'] = price_text
+        # pre_price
+        pre_price_element = card.query_selector(
+            '.a-price.a-text-price[data-a-strike="true"] > .a-offscreen')
+        if pre_price_element:
+            pre_price_text = pre_price_element.inner_text()
+            temp_card['pre_price'] = pre_price_text
+        # coupon
+        coupon_element = card.query_selector(
+            '.s-coupon-unclipped')
+        if coupon_element:
+            coupon_text = coupon_element.inner_text()
+            temp_card['coupon'] = True
+            temp_card['coupon_text'] = coupon_text
+        # prime
+        prime_element = card.query_selector(
+            '[role="img"][aria-label="Amazon プライム"]')
+        if prime_element:
+            temp_card['prime'] = True
         # if index == 3:
         #     print(card.inner_text())
         out['sectionCards'].append(temp_card)
 
     print(f'商品カード数: {len(sectionCards)}')
     print(f'タイトル数: {len(out["sectionCards"])}')
+    
     if dev_writefile_flag:
 
         html_content = page.content()
         print(len(html_content))
         with open("output.html", "w") as file:
             file.write(html_content)
-        with open("cards.json", "w", encoding="utf-8") as file:
-            json.dump(out, file, ensure_ascii=False, indent=4)
 
         # with open('titles.csv', 'w', newline='', encoding='utf-8-sig') as f:
         #     writer = csv.writer(f)
@@ -92,6 +123,8 @@ with sync_playwright() as p:
 
     browser.close()
 
+with open("cards.json", "w", encoding="utf-8") as file:
+    json.dump(out, file, ensure_ascii=False, indent=4)
 
 processing_time = time.time() - start_time
 print(f'処理時間(s）: {round(processing_time,1)}')
