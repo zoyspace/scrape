@@ -5,11 +5,12 @@ from urllib.parse import unquote
 
 # target_url = 'https://www.amazon.co.jp/s?k=iphone%E3%82%B1%E3%83%BC%E3%82%B9&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=WZP8S0OOZKXK&sprefix=iphone%E3%82%B1%E3%83%BC%E3%82%B9%2Caps%2C171&ref=nb_sb_noss_1'
 amazon_url = 'https://www.amazon.co.jp'
-search_keyword = '本'
+
+search_keyword = 'パソコン'
 
 dev_writefile_flag = True
 next_page_flag = True
-max_page = 3
+max_page = 2
 out = {}
 
 
@@ -25,7 +26,6 @@ start_time = time.time()
 with sync_playwright() as p:
     # browser = p.chromium.launch(headless=False)
     browser = p.chromium.launch()
-    # global page  # グローバル変数を使うことを宣言
     page = browser.new_page()
     page.goto(amazon_url)
     page.wait_for_load_state()
@@ -42,7 +42,7 @@ with sync_playwright() as p:
     while next_page_flag:
         out['targetUrls'].append(target_url)
         page.goto(target_url)
-        page.press('body', 'End')
+        # page.press('body', 'End')
         page.keyboard.press('PageDown')
         time.sleep(3)
         page.wait_for_load_state()
@@ -56,7 +56,7 @@ with sync_playwright() as p:
             idd = f'{str(loop_num)}_{len(out["targetUrls"])}_{str(indexPlus1)}'
             # print(indexPlus1)
             temp_card = {'id': idd, 'imageUrl': '', 'sponsored': False, 'title': '', 'stars': '', 'ratingsCount': '',
-                         'sales': '', 'price': '', 'pre_price': '', 'coupon': False, 'coupon_text': '', 'prime': False, 'url': ''}
+                         'salesText': '', 'price': '', 'pre_price': '', 'coupon_text': '', 'prime': False, 'url': ''}
             # imageUrl
             image_element = card.query_selector('img.s-image')
             if image_element:
@@ -91,7 +91,7 @@ with sync_playwright() as p:
                 '[data-a-badge-color="sx-lightning-deal-red"].a-badge-label > .a-badge-label-inner.a-text-ellipsis')
             if sales_element:
                 sales_text = sales_element.inner_text()
-                temp_card['sales'] = sales_text
+                temp_card['salesText'] = sales_text
             # price
             price_element = card.query_selector('.a-price-whole')
             if price_element:
@@ -108,7 +108,7 @@ with sync_playwright() as p:
                 '.s-coupon-unclipped')
             if coupon_element:
                 coupon_text = coupon_element.inner_text()
-                temp_card['coupon'] = True
+            
                 temp_card['coupon_text'] = coupon_text
             # prime
             prime_element = card.query_selector(
@@ -130,15 +130,14 @@ with sync_playwright() as p:
 
             out['sectionCards'].append(temp_card)
         print(f'商品カード数: {len(sectionCards)}')
-        # if index == 3:
-        #     print(card.inner_text())
+
         # ページネーション
         pagination_element = page.query_selector('span.s-pagination-strip')
         # 現在のページ
         current_page_element = pagination_element.query_selector(
             '.s-pagination-selected')
         current_page = current_page_element.inner_text()
-        print(f'current_page: {current_page}')
+        print(f'current_page_number: {current_page}')
         # 次ページ
         next_page_element = pagination_element.query_selector(
             '.s-pagination-item.s-pagination-next')
@@ -153,7 +152,7 @@ with sync_playwright() as p:
         if dev_writefile_flag:
             html_content = page.content()
             print(len(html_content))
-            with open("output.html", "w") as file:
+            with open("_output.html", "w") as file:
                 file.write(html_content)
         if int(current_page) >= max_page:
             next_page_flag = False
