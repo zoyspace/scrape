@@ -10,7 +10,7 @@ search_keyword = 'パソコン'
 
 dev_writefile_flag = True
 next_page_flag = True
-max_page = 2
+max_page = 1
 out = {}
 
 
@@ -37,7 +37,7 @@ with sync_playwright() as p:
     out['keyWord'] = search_keyword
     out['startDate'] = dt_now.strftime('%Y年%m月%d日 %H:%M:%S')
     out['targetUrls'] = []
-    out['sectionCards'] = []
+    out['Cards'] = []
     loop_num = 0
     while next_page_flag:
         out['targetUrls'].append(target_url)
@@ -49,14 +49,14 @@ with sync_playwright() as p:
         hit_count_element = page.query_selector(
             '.a-section.a-spacing-small.a-spacing-top-small').inner_text()
         print(hit_count_element)
-        sectionCards = page.query_selector_all('.a-section.a-spacing-base')
-        for index, card in enumerate(sectionCards):
+        Cards = page.query_selector_all('.a-section.a-spacing-base')
+        for index, card in enumerate(Cards):
             loop_num += 1
             indexPlus1 = index+1
             idd = f'{str(loop_num)}_{len(out["targetUrls"])}_{str(indexPlus1)}'
             # print(indexPlus1)
             temp_card = {'id': idd, 'imageUrl': '', 'sponsored': False, 'title': '', 'stars': '', 'ratingsCount': '',
-                         'salesText': '', 'price': '', 'pre_price': '', 'coupon_text': '', 'prime': False, 'url': ''}
+                         'salesText': '', 'price': '', 'prePrice': '', 'couponText': '', 'prime': False, 'url': ''}
             # imageUrl
             image_element = card.query_selector('img.s-image')
             if image_element:
@@ -102,14 +102,13 @@ with sync_playwright() as p:
                 '.a-price.a-text-price[data-a-strike="true"] > .a-offscreen')
             if pre_price_element:
                 pre_price_text = pre_price_element.inner_text()
-                temp_card['pre_price'] = pre_price_text
+                temp_card['prePrice'] = pre_price_text
             # coupon
             coupon_element = card.query_selector(
                 '.s-coupon-unclipped')
             if coupon_element:
                 coupon_text = coupon_element.inner_text()
-            
-                temp_card['coupon_text'] = coupon_text
+                temp_card['couponText'] = coupon_text
             # prime
             prime_element = card.query_selector(
                 '[role="img"][aria-label="Amazon プライム"]')
@@ -128,8 +127,8 @@ with sync_playwright() as p:
                     decoded_string = fully_decode(split_str)
                     temp_card['url'] = amazon_url + decoded_string
 
-            out['sectionCards'].append(temp_card)
-        print(f'商品カード数: {len(sectionCards)}')
+            out['Cards'].append(temp_card)
+        print(f'商品カード数: {len(Cards)}')
 
         # ページネーション
         pagination_element = page.query_selector('span.s-pagination-strip')

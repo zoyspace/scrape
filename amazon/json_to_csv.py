@@ -12,10 +12,10 @@ with open('cards.csv', 'w', newline='') as f:
     csv_writer = csv.writer(f)
 
     # ヘッダーを書き込む
-    header = json_data['sectionCards'][0].keys()
+    header = json_data['Cards'][0].keys()
     csv_writer.writerow(header)
 
     # 各行のデータを書き込む
-    for row in json_data['sectionCards']:
+    for row in json_data['Cards']:
         csv_writer.writerow(row.values())
 print('処理が完了しました。')
