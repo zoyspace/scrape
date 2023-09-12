@@ -1,0 +1,414 @@
+[
+    {
+        "prefecture": "神奈川県",
+        "allpage": "188",
+        "card_urls": [
+            {
+                "id": "1_1",
+                "name": "Oggi たまプラーザ　【オッジ】",
+                "url": "https://beauty.hotpepper.jp/slnH000105514/?cstt=1"
+            },
+            {
+                "id": "1_2",
+                "name": "AUBE HAIR kanon　横浜2号店 【オーブ ヘアー カノン】",
+                "url": "https://beauty.hotpepper.jp/slnH000286582/?cstt=2"
+            },
+            {
+                "id": "1_3",
+                "name": "Neolive rita たまプラーザ店",
+                "url": "https://beauty.hotpepper.jp/slnH000273692/?cstt=3"
+            },
+            {
+                "id": "1_4",
+                "name": "Le couel  青葉台",
+                "url": "https://beauty.hotpepper.jp/slnH000231752/?cstt=4"
+            },
+            {
+                "id": "1_5",
+                "name": "Emerge 川崎【エマージュ】",
+                "url": "https://beauty.hotpepper.jp/slnH000453933/?cstt=5"
+            },
+            {
+                "id": "1_6",
+                "name": "ｉｓ　横浜店【イズ】",
+                "url": "https://beauty.hotpepper.jp/slnH000139752/?cstt=6"
+            },
+            {
+                "id": "1_7",
+                "name": "SCENE 読売ランド前【シーン ヨミウリランドマエ】 (旧: STYLE　beauty＆photoroom)",
+                "url": "https://beauty.hotpepper.jp/slnH000446323/?cstt=7"
+            },
+            {
+                "id": "1_8",
+                "name": "OAK plus+ 【オーク】",
+                "url": "https://beauty.hotpepper.jp/slnH000504447/?cstt=8"
+            },
+            {
+                "id": "1_9",
+                "name": "SNIPPER【スニッパー】",
+                "url": "https://beauty.hotpepper.jp/slnH000438016/?cstt=9"
+            },
+            {
+                "id": "1_10",
+                "name": "youres hair 髪質改善トリートメント&ヘッドスパ  青葉台店",
+                "url": "https://beauty.hotpepper.jp/slnH000624943/?cstt=10"
+            },
+            {
+                "id": "1_11",
+                "name": "Hair Studio　R【ヘアースタジオ　アール】",
+                "url": "https://beauty.hotpepper.jp/slnH000038544/?cstt=11"
+            },
+            {
+                "id": "1_12",
+                "name": "Tink 大船【ティンク】",
+                "url": "https://beauty.hotpepper.jp/slnH000476867/?cstt=12"
+            },
+            {
+                "id": "1_13",
+                "name": "AVENIR by across 戸塚店【アヴニール　バイ　アクロス】",
+                "url": "https://beauty.hotpepper.jp/slnH000507528/?cstt=13"
+            },
+            {
+                "id": "1_14",
+                "name": "Nine9　【ナイン】 ",
+                "url": "https://beauty.hotpepper.jp/slnH000185460/?cstt=14"
+            },
+            {
+                "id": "1_15",
+                "name": "Neolive CiroL.　横浜西口店",
+                "url": "https://beauty.hotpepper.jp/slnH000073972/?cstt=15"
+            },
+            {
+                "id": "1_16",
+                "name": "sand 横浜 【サンド ヨコハマ】",
+                "url": "https://beauty.hotpepper.jp/slnH000541701/?cstt=16"
+            },
+            {
+                "id": "1_17",
+                "name": "hair make Haku 横浜【ヘアメイク ハク】",
+                "url": "https://beauty.hotpepper.jp/slnH000257806/?cstt=17"
+            },
+            {
+                "id": "1_18",
+                "name": "eMir... 武蔵小杉店【エミール】",
+                "url": "https://beauty.hotpepper.jp/slnH000559358/?cstt=18"
+            },
+            {
+                "id": "1_19",
+                "name": "Shiki.【9月14日OPEN（予定）】",
+                "url": "https://beauty.hotpepper.jp/slnH000660281/?cstt=19"
+            },
+            {
+                "id": "1_20",
+                "name": "emu la piece  【エミュー・ラ・ピエス】",
+                "url": "https://beauty.hotpepper.jp/slnH000345573/?cstt=20"
+            },
+            {
+                "id": "2_1",
+                "name": "Leia 【レイア】",
+                "url": "https://beauty.hotpepper.jp/slnH000238966/?cstt=21"
+            },
+            {
+                "id": "2_2",
+                "name": "Decision 溝の口店",
+                "url": "https://beauty.hotpepper.jp/slnH000273639/?cstt=22"
+            },
+            {
+                "id": "2_3",
+                "name": "ECLART Lien 藤沢店【エクラート　リアン】",
+                "url": "https://beauty.hotpepper.jp/slnH000617306/?cstt=23"
+            },
+            {
+                "id": "2_4",
+                "name": "REM-noborito- ",
+                "url": "https://beauty.hotpepper.jp/slnH000491223/?cstt=24"
+            },
+            {
+                "id": "2_5",
+                "name": "hair salon Rich菊名店",
+                "url": "https://beauty.hotpepper.jp/slnH000624309/?cstt=25"
+            },
+            {
+                "id": "2_6",
+                "name": "ｆｉｔ　【フィット】",
+                "url": "https://beauty.hotpepper.jp/slnH000058532/?cstt=26"
+            },
+            {
+                "id": "2_7",
+                "name": "THREE【スリー】",
+                "url": "https://beauty.hotpepper.jp/slnH000376174/?cstt=27"
+            },
+            {
+                "id": "2_8",
+                "name": "Tink センター南",
+                "url": "https://beauty.hotpepper.jp/slnH000319269/?cstt=28"
+            },
+            {
+                "id": "2_9",
+                "name": "Men's hair salon First 川崎店【ファースト】",
+                "url": "https://beauty.hotpepper.jp/slnH000654333/?cstt=29"
+            },
+            {
+                "id": "2_10",
+                "name": "Mimi Branche　【ミミ ブランシェ】",
+                "url": "https://beauty.hotpepper.jp/slnH000173164/?cstt=30"
+            },
+            {
+                "id": "2_11",
+                "name": "Agu hair bell 溝の口店【アグ ヘアー ベル】",
+                "url": "https://beauty.hotpepper.jp/slnH000228478/?cstt=31"
+            },
+            {
+                "id": "2_12",
+                "name": "LOST CITY 横浜 【ロストシティー】",
+                "url": "https://beauty.hotpepper.jp/slnH000471648/?cstt=32"
+            },
+            {
+                "id": "2_13",
+                "name": "EIGHT kawasaki 川崎店 【エイト】",
+                "url": "https://beauty.hotpepper.jp/slnH000552610/?cstt=33"
+            },
+            {
+                "id": "2_14",
+                "name": "PRINTEMPS by flammeum 大和店【プランタン バイ フラミューム】",
+                "url": "https://beauty.hotpepper.jp/slnH000452465/?cstt=34"
+            },
+            {
+                "id": "2_15",
+                "name": "WILL 【ウィル】",
+                "url": "https://beauty.hotpepper.jp/slnH000502693/?cstt=35"
+            },
+            {
+                "id": "2_16",
+                "name": "fille by artina 藤沢店 【フィーユ バイ アルティナ】",
+                "url": "https://beauty.hotpepper.jp/slnH000357083/?cstt=36"
+            },
+            {
+                "id": "2_17",
+                "name": "e's 鎌倉【イーズ】",
+                "url": "https://beauty.hotpepper.jp/slnH000617125/?cstt=37"
+            },
+            {
+                "id": "2_18",
+                "name": "REGALO【レガロ】　南口店",
+                "url": "https://beauty.hotpepper.jp/slnH000305393/?cstt=38"
+            },
+            {
+                "id": "2_19",
+                "name": "Ange【アンジェ】",
+                "url": "https://beauty.hotpepper.jp/slnH000466762/?cstt=39"
+            },
+            {
+                "id": "2_20",
+                "name": "hair salon Rich",
+                "url": "https://beauty.hotpepper.jp/slnH000416583/?cstt=40"
+            }
+        ]
+    },
+    {
+        "prefecture": "東京都",
+        "allpage": "462",
+        "card_urls": [
+            {
+                "id": "1_1",
+                "name": "NEXT【ネクスト】",
+                "url": "https://beauty.hotpepper.jp/slnH000287096/?cstt=1"
+            },
+            {
+                "id": "1_2",
+                "name": "髪質改善と縮毛矯正の専門店 millci【ミルシー】",
+                "url": "https://beauty.hotpepper.jp/slnH000209281/?cstt=2"
+            },
+            {
+                "id": "1_3",
+                "name": "Resta【リスタ】",
+                "url": "https://beauty.hotpepper.jp/slnH000619091/?cstt=3"
+            },
+            {
+                "id": "1_4",
+                "name": "メンズサロンカット＆パーマOVER町田店【オーバー】",
+                "url": "https://beauty.hotpepper.jp/slnH000645167/?cstt=4"
+            },
+            {
+                "id": "1_5",
+                "name": "Rubu【ルブ】",
+                "url": "https://beauty.hotpepper.jp/slnH000622663/?cstt=5"
+            },
+            {
+                "id": "1_6",
+                "name": "5 hair design/fifth 調布【ゴヘアーデザイン/フィフス】",
+                "url": "https://beauty.hotpepper.jp/slnH000503323/?cstt=6"
+            },
+            {
+                "id": "1_7",
+                "name": "actor【アクター】",
+                "url": "https://beauty.hotpepper.jp/slnH000294554/?cstt=7"
+            },
+            {
+                "id": "1_8",
+                "name": "Feria渋谷【フェリア　シブヤ】",
+                "url": "https://beauty.hotpepper.jp/slnH000417810/?cstt=8"
+            },
+            {
+                "id": "1_9",
+                "name": "RIFULL 八王子【リフル】",
+                "url": "https://beauty.hotpepper.jp/slnH000244513/?cstt=9"
+            },
+            {
+                "id": "1_10",
+                "name": "affix　hair　新小岩",
+                "url": "https://beauty.hotpepper.jp/slnH000381126/?cstt=10"
+            },
+            {
+                "id": "1_11",
+                "name": "Adelita【アデリタ】",
+                "url": "https://beauty.hotpepper.jp/slnH000494650/?cstt=11"
+            },
+            {
+                "id": "1_12",
+                "name": "hair salon SHIAN 八王子店【シアン】",
+                "url": "https://beauty.hotpepper.jp/slnH000039278/?cstt=12"
+            },
+            {
+                "id": "1_13",
+                "name": "Tolaria【トレイリア】",
+                "url": "https://beauty.hotpepper.jp/slnH000588291/?cstt=13"
+            },
+            {
+                "id": "1_14",
+                "name": "Rushell  plaisir　 【ラッシェル プレジール】",
+                "url": "https://beauty.hotpepper.jp/slnH000133818/?cstt=14"
+            },
+            {
+                "id": "1_15",
+                "name": "volonte 【ヴォロンテ】",
+                "url": "https://beauty.hotpepper.jp/slnH000276053/?cstt=15"
+            },
+            {
+                "id": "1_16",
+                "name": "Belle 銀座5丁目店【ベル　ギンザゴチョウメテン】",
+                "url": "https://beauty.hotpepper.jp/slnH000426343/?cstt=16"
+            },
+            {
+                "id": "1_17",
+                "name": "STAND By HAIR【スタンド バイ ヘアー】",
+                "url": "https://beauty.hotpepper.jp/slnH000378661/?cstt=17"
+            },
+            {
+                "id": "1_18",
+                "name": "Stir maison 吉祥寺【ステア メゾン】",
+                "url": "https://beauty.hotpepper.jp/slnH000369143/?cstt=18"
+            },
+            {
+                "id": "1_19",
+                "name": "meglio 【メグリオ】",
+                "url": "https://beauty.hotpepper.jp/slnH000520487/?cstt=19"
+            },
+            {
+                "id": "1_20",
+                "name": "Direct【ディレクト】",
+                "url": "https://beauty.hotpepper.jp/slnH000571413/?cstt=20"
+            },
+            {
+                "id": "2_1",
+                "name": "syn",
+                "url": "https://beauty.hotpepper.jp/slnH000346025/?cstt=21"
+            },
+            {
+                "id": "2_2",
+                "name": "EIGHT tachikawa 立川店 【エイト】",
+                "url": "https://beauty.hotpepper.jp/slnH000588610/?cstt=22"
+            },
+            {
+                "id": "2_3",
+                "name": "美髪革命CELESTE 下北沢店【セレスト】",
+                "url": "https://beauty.hotpepper.jp/slnH000335364/?cstt=23"
+            },
+            {
+                "id": "2_4",
+                "name": "COLO 【コロ】",
+                "url": "https://beauty.hotpepper.jp/slnH000274193/?cstt=24"
+            },
+            {
+                "id": "2_5",
+                "name": "marca",
+                "url": "https://beauty.hotpepper.jp/slnH000502040/?cstt=25"
+            },
+            {
+                "id": "2_6",
+                "name": "Redneo ebisu【レッドネオ　エビス】",
+                "url": "https://beauty.hotpepper.jp/slnH000376930/?cstt=26"
+            },
+            {
+                "id": "2_7",
+                "name": "ONE'S MIRROR 立川 【ワンズミラー】",
+                "url": "https://beauty.hotpepper.jp/slnH000642318/?cstt=27"
+            },
+            {
+                "id": "2_8",
+                "name": "個室美容室 ディアローグ 下北沢店",
+                "url": "https://beauty.hotpepper.jp/slnH000054824/?cstt=28"
+            },
+            {
+                "id": "2_9",
+                "name": "AMNESIA 三軒茶屋【アムネシア】",
+                "url": "https://beauty.hotpepper.jp/slnH000530465/?cstt=29"
+            },
+            {
+                "id": "2_10",
+                "name": "hair terrace Ciel　 【シエル】",
+                "url": "https://beauty.hotpepper.jp/slnH000314927/?cstt=30"
+            },
+            {
+                "id": "2_11",
+                "name": "prize 表参道/原宿店【プライズ】",
+                "url": "https://beauty.hotpepper.jp/slnH000361571/?cstt=31"
+            },
+            {
+                "id": "2_12",
+                "name": "men's salon dot. lien 町田店【メンズサロンドットリアン】",
+                "url": "https://beauty.hotpepper.jp/slnH000520309/?cstt=32"
+            },
+            {
+                "id": "2_13",
+                "name": "baLon. 新宿店 【バロン】　",
+                "url": "https://beauty.hotpepper.jp/slnH000171426/?cstt=33"
+            },
+            {
+                "id": "2_14",
+                "name": "ANKHCROSS　吉祥寺 【アンク・クロス】",
+                "url": "https://beauty.hotpepper.jp/slnH000036336/?cstt=34"
+            },
+            {
+                "id": "2_15",
+                "name": "AUBE HAIR bell　中野店 【オーブ ヘアー ベル】",
+                "url": "https://beauty.hotpepper.jp/slnH000293448/?cstt=35"
+            },
+            {
+                "id": "2_16",
+                "name": "ever 原宿/表参道【エバー】",
+                "url": "https://beauty.hotpepper.jp/slnH000326622/?cstt=36"
+            },
+            {
+                "id": "2_17",
+                "name": "Ash 銀座店 ",
+                "url": "https://beauty.hotpepper.jp/slnH000039017/?cstt=37"
+            },
+            {
+                "id": "2_18",
+                "name": "NNN",
+                "url": "https://beauty.hotpepper.jp/slnH000563533/?cstt=38"
+            },
+            {
+                "id": "2_19",
+                "name": "BLUCK Men's hair【ブラック メンズヘア】",
+                "url": "https://beauty.hotpepper.jp/slnH000647120/?cstt=39"
+            },
+            {
+                "id": "2_20",
+                "name": "Cloud zero 　【クラウドゼロ】",
+                "url": "https://beauty.hotpepper.jp/slnH000160102/?cstt=40"
+            }
+        ]
+    }
+]
