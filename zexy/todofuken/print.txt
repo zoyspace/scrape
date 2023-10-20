@@ -1,0 +1,205 @@
+県名: 北海道
+店舗数: 72
+50
+22
+page_num: 2 list_num: 72
+県名: 青森県
+店舗数: 8
+8
+page_num: 1 list_num: 8
+県名: 岩手県
+店舗数: 13
+13
+page_num: 1 list_num: 13
+県名: 宮城県
+店舗数: 32
+32
+page_num: 1 list_num: 32
+県名: 秋田県
+店舗数: 11
+11
+page_num: 1 list_num: 11
+県名: 山形県
+店舗数: 21
+21
+page_num: 1 list_num: 21
+県名: 福島県
+店舗数: 21
+21
+page_num: 1 list_num: 21
+県名: 茨城県
+店舗数: 32
+32
+page_num: 1 list_num: 32
+県名: 栃木県
+店舗数: 34
+34
+page_num: 1 list_num: 34
+県名: 群馬県
+店舗数: 39
+39
+page_num: 1 list_num: 39
+県名: 埼玉県
+店舗数: 44
+44
+page_num: 1 list_num: 44
+県名: 千葉県
+店舗数: 54
+50
+4
+page_num: 2 list_num: 54
+県名: 東京都
+店舗数: 261
+50
+50
+50
+50
+50
+11
+page_num: 6 list_num: 261
+県名: 神奈川県
+店舗数: 98
+50
+48
+page_num: 2 list_num: 98
+県名: 新潟県
+店舗数: 39
+39
+page_num: 1 list_num: 39
+県名: 山梨県
+店舗数: 13
+13
+page_num: 1 list_num: 13
+県名: 長野県
+店舗数: 56
+50
+6
+page_num: 2 list_num: 56
+県名: 富山県
+店舗数: 16
+16
+page_num: 1 list_num: 16
+県名: 石川県
+店舗数: 35
+35
+page_num: 1 list_num: 35
+県名: 福井県
+店舗数: 13
+13
+page_num: 1 list_num: 13
+県名: 岐阜県
+店舗数: 41
+41
+page_num: 1 list_num: 41
+県名: 静岡県
+店舗数: 58
+50
+8
+page_num: 2 list_num: 58
+県名: 愛知県
+店舗数: 139
+50
+50
+39
+page_num: 3 list_num: 139
+県名: 三重県
+店舗数: 23
+23
+page_num: 1 list_num: 23
+県名: 滋賀県
+店舗数: 23
+23
+page_num: 1 list_num: 23
+県名: 京都府
+店舗数: 78
+50
+28
+page_num: 2 list_num: 78
+県名: 大阪府
+店舗数: 126
+50
+50
+26
+page_num: 3 list_num: 126
+県名: 兵庫県
+店舗数: 88
+50
+38
+page_num: 2 list_num: 88
+県名: 奈良県
+店舗数: 16
+16
+page_num: 1 list_num: 16
+県名: 和歌山県
+店舗数: 8
+8
+page_num: 1 list_num: 8
+県名: 鳥取県
+店舗数: 2
+12
+page_num: 1 list_num: 12
+県名: 島根県
+店舗数: 6
+6
+page_num: 1 list_num: 6
+県名: 岡山県
+店舗数: 45
+45
+page_num: 1 list_num: 45
+県名: 広島県
+店舗数: 52
+50
+2
+page_num: 2 list_num: 52
+県名: 山口県
+店舗数: 14
+14
+page_num: 1 list_num: 14
+県名: 徳島県
+店舗数: 9
+9
+page_num: 1 list_num: 9
+県名: 香川県
+店舗数: 22
+22
+page_num: 1 list_num: 22
+県名: 愛媛県
+店舗数: 22
+22
+page_num: 1 list_num: 22
+県名: 高知県
+店舗数: 8
+8
+page_num: 1 list_num: 8
+県名: 福岡県
+店舗数: 99
+50
+49
+page_num: 2 list_num: 99
+県名: 佐賀県
+店舗数: 15
+15
+page_num: 1 list_num: 15
+県名: 長崎県
+店舗数: 29
+29
+page_num: 1 list_num: 29
+県名: 熊本県
+店舗数: 36
+36
+page_num: 1 list_num: 36
+県名: 大分県
+店舗数: 26
+26
+page_num: 1 list_num: 26
+県名: 宮崎県
+店舗数: 14
+14
+page_num: 1 list_num: 14
+県名: 鹿児島県
+店舗数: 26
+26
+page_num: 1 list_num: 26
+県名: 沖縄県
+店舗数: 38
+38

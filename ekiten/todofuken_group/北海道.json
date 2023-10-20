@@ -1,0 +1,1043 @@
+{
+    "todofuken": "北海道",
+    "url": "https://www.ekiten.jp/sitemap/p01",
+    "cities_length": 188,
+    "cities": [
+        {
+            "city_name": "赤平市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01218/",
+            "group_length": 1,
+            "group": [
+                {
+                    "group_name": "マッサージ店",
+                    "group_url": "https://www.ekiten.jp/g0204/a01218/"
+                }
+            ]
+        },
+        {
+            "city_name": "阿寒郡鶴居村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01667/",
+            "group_length": 3,
+            "group": [
+                {
+                    "group_name": "整体院",
+                    "group_url": "https://www.ekiten.jp/g0210/a01667/"
+                },
+                {
+                    "group_name": "マッサージ店",
+                    "group_url": "https://www.ekiten.jp/g0204/a01667/"
+                },
+                {
+                    "group_name": "カイロプラクティック",
+                    "group_url": "https://www.ekiten.jp/g0211/a01667/"
+                }
+            ]
+        },
+        {
+            "city_name": "旭川市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01204/",
+            "group_length": 63,
+            "group": [
+                {
+                    "group_name": "整体院",
+                    "group_url": "https://www.ekiten.jp/g0210/a01204/"
+                },
+                {
+                    "group_name": "マッサージ店",
+                    "group_url": "https://www.ekiten.jp/g0204/a01204/"
+                },
+                {
+                    "group_name": "鍼灸院",
+                    "group_url": "https://www.ekiten.jp/g0212/a01204/"
+                },
+                {
+                    "group_name": "リラクゼーションマッサージサロン",
+                    "group_url": "https://www.ekiten.jp/g0213/a01204/"
+                },
+                {
+                    "group_name": "美容室・美容院・ヘアサロン",
+                    "group_url": "https://www.ekiten.jp/g0201/a01204/"
+                },
+                {
+                    "group_name": "理容室・床屋",
+                    "group_url": "https://www.ekiten.jp/g0202/a01204/"
+                },
+                {
+                    "group_name": "ネイルサロン",
+                    "group_url": "https://www.ekiten.jp/g0209/a01204/"
+                },
+                {
+                    "group_name": "エステサロン",
+                    "group_url": "https://www.ekiten.jp/g0203/a01204/"
+                },
+                {
+                    "group_name": "家庭教師",
+                    "group_url": "https://www.ekiten.jp/g0413/a01204/"
+                },
+                {
+                    "group_name": "英会話教室",
+                    "group_url": "https://www.ekiten.jp/g0409/a01204/"
+                },
+                {
+                    "group_name": "書道・習字",
+                    "group_url": "https://www.ekiten.jp/g0414/a01204/"
+                },
+                {
+                    "group_name": "パソコン教室",
+                    "group_url": "https://www.ekiten.jp/g0410/a01204/"
+                },
+                {
+                    "group_name": "フラワーアレンジメント教室・生け花スクール",
+                    "group_url": "https://www.ekiten.jp/g0412/a01204/"
+                },
+                {
+                    "group_name": "専門学校・専修学校",
+                    "group_url": "https://www.ekiten.jp/g0416/a01204/"
+                },
+                {
+                    "group_name": "内科",
+                    "group_url": "https://www.ekiten.jp/g0602/a01204/"
+                },
+                {
+                    "group_name": "精神科",
+                    "group_url": "https://www.ekiten.jp/g0609/a01204/"
+                },
+                {
+                    "group_name": "日本料理",
+                    "group_url": "https://www.ekiten.jp/g0121/a01204/"
+                },
+                {
+                    "group_name": "焼肉",
+                    "group_url": "https://www.ekiten.jp/g0151/a01204/"
+                },
+                {
+                    "group_name": "ラーメン",
+                    "group_url": "https://www.ekiten.jp/g0108/a01204/"
+                },
+                {
+                    "group_name": "中華料理",
+                    "group_url": "https://www.ekiten.jp/g0102/a01204/"
+                },
+                {
+                    "group_name": "レストラン",
+                    "group_url": "https://www.ekiten.jp/g0104/a01204/"
+                },
+                {
+                    "group_name": "食堂",
+                    "group_url": "https://www.ekiten.jp/g0149/a01204/"
+                },
+                {
+                    "group_name": "居酒屋",
+                    "group_url": "https://www.ekiten.jp/g0105/a01204/"
+                },
+                {
+                    "group_name": "カフェ・喫茶店",
+                    "group_url": "https://www.ekiten.jp/g0110/a01204/"
+                },
+                {
+                    "group_name": "スイーツ",
+                    "group_url": "https://www.ekiten.jp/g0153/a01204/"
+                },
+                {
+                    "group_name": "花・花屋",
+                    "group_url": "https://www.ekiten.jp/g0306/a01204/"
+                },
+                {
+                    "group_name": "酒屋",
+                    "group_url": "https://www.ekiten.jp/g0315/a01204/"
+                },
+                {
+                    "group_name": "家電",
+                    "group_url": "https://www.ekiten.jp/g0323/a01204/"
+                },
+                {
+                    "group_name": "パソコン",
+                    "group_url": "https://www.ekiten.jp/g0324/a01204/"
+                },
+                {
+                    "group_name": "携帯ショップ",
+                    "group_url": "https://www.ekiten.jp/g0308/a01204/"
+                },
+                {
+                    "group_name": "服・洋服",
+                    "group_url": "https://www.ekiten.jp/g0301/a01204/"
+                },
+                {
+                    "group_name": "アクセサリー・ジュエリー",
+                    "group_url": "https://www.ekiten.jp/g0338/a01204/"
+                },
+                {
+                    "group_name": "靴・シューズ",
+                    "group_url": "https://www.ekiten.jp/g0318/a01204/"
+                },
+                {
+                    "group_name": "バッグ・鞄",
+                    "group_url": "https://www.ekiten.jp/g0319/a01204/"
+                },
+                {
+                    "group_name": "インテリア",
+                    "group_url": "https://www.ekiten.jp/g0302/a01204/"
+                },
+                {
+                    "group_name": "雑貨",
+                    "group_url": "https://www.ekiten.jp/g0322/a01204/"
+                },
+                {
+                    "group_name": "文房具・文具",
+                    "group_url": "https://www.ekiten.jp/g0331/a01204/"
+                },
+                {
+                    "group_name": "スポーツショップ・ゴルフショップ",
+                    "group_url": "https://www.ekiten.jp/g0339/a01204/"
+                },
+                {
+                    "group_name": "車・カーディーラー",
+                    "group_url": "https://www.ekiten.jp/g0335/a01204/"
+                },
+                {
+                    "group_name": "レンタカー",
+                    "group_url": "https://www.ekiten.jp/g0704/a01204/"
+                },
+                {
+                    "group_name": "リサイクルショップ",
+                    "group_url": "https://www.ekiten.jp/g0521/a01204/"
+                },
+                {
+                    "group_name": "金券ショップ・チケットショップ",
+                    "group_url": "https://www.ekiten.jp/g0309/a01204/"
+                },
+                {
+                    "group_name": "古着",
+                    "group_url": "https://www.ekiten.jp/g0317/a01204/"
+                },
+                {
+                    "group_name": "古本",
+                    "group_url": "https://www.ekiten.jp/g0539/a01204/"
+                },
+                {
+                    "group_name": "中古ゲーム・CD・DVD",
+                    "group_url": "https://www.ekiten.jp/g0540/a01204/"
+                },
+                {
+                    "group_name": "質屋",
+                    "group_url": "https://www.ekiten.jp/g0541/a01204/"
+                },
+                {
+                    "group_name": "ペットサロン・トリミングサロン",
+                    "group_url": "https://www.ekiten.jp/g0538/a01204/"
+                },
+                {
+                    "group_name": "ペットホテル",
+                    "group_url": "https://www.ekiten.jp/g0537/a01204/"
+                },
+                {
+                    "group_name": "動物病院",
+                    "group_url": "https://www.ekiten.jp/g0614/a01204/"
+                },
+                {
+                    "group_name": "便利屋・代行サービス",
+                    "group_url": "https://www.ekiten.jp/g0530/a01204/"
+                },
+                {
+                    "group_name": "家電パソコン修理",
+                    "group_url": "https://www.ekiten.jp/g0532/a01204/"
+                },
+                {
+                    "group_name": "ハウスクリーニング",
+                    "group_url": "https://www.ekiten.jp/g0518/a01204/"
+                },
+                {
+                    "group_name": "トイレつまり・水漏れ修理・蛇口修理",
+                    "group_url": "https://www.ekiten.jp/g0531/a01204/"
+                },
+                {
+                    "group_name": "畳・障子・壁紙張り替え",
+                    "group_url": "https://www.ekiten.jp/g0533/a01204/"
+                },
+                {
+                    "group_name": "害虫・害獣駆除",
+                    "group_url": "https://www.ekiten.jp/g0528/a01204/"
+                },
+                {
+                    "group_name": "庭木剪定・お手入れ",
+                    "group_url": "https://www.ekiten.jp/g0529/a01204/"
+                },
+                {
+                    "group_name": "宅配便・バイク便・引越し",
+                    "group_url": "https://www.ekiten.jp/g0542/a01204/"
+                },
+                {
+                    "group_name": "賃貸不動産",
+                    "group_url": "https://www.ekiten.jp/g0511/a01204/"
+                },
+                {
+                    "group_name": "不動産売買",
+                    "group_url": "https://www.ekiten.jp/g0502/a01204/"
+                },
+                {
+                    "group_name": "住宅リフォーム・リノベーション",
+                    "group_url": "https://www.ekiten.jp/g0503/a01204/"
+                },
+                {
+                    "group_name": "行政書士",
+                    "group_url": "https://www.ekiten.jp/g0549/a01204/"
+                },
+                {
+                    "group_name": "写真館・フォトスタジオ",
+                    "group_url": "https://www.ekiten.jp/g0510/a01204/"
+                },
+                {
+                    "group_name": "葬儀・葬式",
+                    "group_url": "https://www.ekiten.jp/g0509/a01204/"
+                }
+            ]
+        },
+        {
+            "city_name": "芦別市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01216/",
+            "group_length": 1,
+            "group": [
+                {
+                    "group_name": "便利屋・代行サービス",
+                    "group_url": "https://www.ekiten.jp/g0530/a01216/"
+                }
+            ]
+        },
+        {
+            "city_name": "足寄郡足寄町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01647/"
+        },
+        {
+            "city_name": "足寄郡陸別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01648/"
+        },
+        {
+            "city_name": "厚岸郡厚岸町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01662/"
+        },
+        {
+            "city_name": "厚岸郡浜中町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01663/"
+        },
+        {
+            "city_name": "網走郡大空町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01564/"
+        },
+        {
+            "city_name": "網走郡津別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01544/"
+        },
+        {
+            "city_name": "網走郡美幌町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01543/"
+        },
+        {
+            "city_name": "網走市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01211/"
+        },
+        {
+            "city_name": "虻田郡喜茂別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01398/"
+        },
+        {
+            "city_name": "虻田郡京極町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01399/"
+        },
+        {
+            "city_name": "虻田郡倶知安町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01400/"
+        },
+        {
+            "city_name": "虻田郡洞爺湖町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01584/"
+        },
+        {
+            "city_name": "虻田郡豊浦町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01571/"
+        },
+        {
+            "city_name": "虻田郡ニセコ町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01395/"
+        },
+        {
+            "city_name": "虻田郡真狩村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01396/"
+        },
+        {
+            "city_name": "虻田郡留寿都村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01397/"
+        },
+        {
+            "city_name": "石狩郡新篠津村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01304/"
+        },
+        {
+            "city_name": "石狩郡当別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01303/"
+        },
+        {
+            "city_name": "石狩市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01235/"
+        },
+        {
+            "city_name": "磯谷郡蘭越町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01394/"
+        },
+        {
+            "city_name": "岩内郡岩内町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01402/"
+        },
+        {
+            "city_name": "岩内郡共和町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01401/"
+        },
+        {
+            "city_name": "岩見沢市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01210/"
+        },
+        {
+            "city_name": "有珠郡壮瞥町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01575/"
+        },
+        {
+            "city_name": "歌志内市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01227/"
+        },
+        {
+            "city_name": "浦河郡浦河町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01607/"
+        },
+        {
+            "city_name": "雨竜郡雨竜町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01436/"
+        },
+        {
+            "city_name": "雨竜郡秩父別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01434/"
+        },
+        {
+            "city_name": "雨竜郡沼田町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01438/"
+        },
+        {
+            "city_name": "雨竜郡北竜町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01437/"
+        },
+        {
+            "city_name": "雨竜郡幌加内町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01472/"
+        },
+        {
+            "city_name": "雨竜郡妹背牛町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01433/"
+        },
+        {
+            "city_name": "枝幸郡枝幸町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01514/"
+        },
+        {
+            "city_name": "枝幸郡中頓別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01513/"
+        },
+        {
+            "city_name": "枝幸郡浜頓別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01512/"
+        },
+        {
+            "city_name": "恵庭市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01231/"
+        },
+        {
+            "city_name": "江別市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01217/"
+        },
+        {
+            "city_name": "奥尻郡奥尻町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01367/"
+        },
+        {
+            "city_name": "小樽市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01203/"
+        },
+        {
+            "city_name": "帯広市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01207/"
+        },
+        {
+            "city_name": "河西郡更別村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01639/"
+        },
+        {
+            "city_name": "河西郡中札内村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01638/"
+        },
+        {
+            "city_name": "河西郡芽室町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01637/"
+        },
+        {
+            "city_name": "河東郡音更町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01631/"
+        },
+        {
+            "city_name": "河東郡上士幌町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01633/"
+        },
+        {
+            "city_name": "河東郡鹿追町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01634/"
+        },
+        {
+            "city_name": "河東郡士幌町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01632/"
+        },
+        {
+            "city_name": "樺戸郡浦臼町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01431/"
+        },
+        {
+            "city_name": "樺戸郡新十津川町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01432/"
+        },
+        {
+            "city_name": "樺戸郡月形町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01430/"
+        },
+        {
+            "city_name": "上磯郡木古内町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01334/"
+        },
+        {
+            "city_name": "上磯郡知内町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01333/"
+        },
+        {
+            "city_name": "上川郡愛別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01456/"
+        },
+        {
+            "city_name": "上川郡上川町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01457/"
+        },
+        {
+            "city_name": "上川郡剣淵町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01465/"
+        },
+        {
+            "city_name": "上川郡清水町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01636/"
+        },
+        {
+            "city_name": "上川郡下川町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01468/"
+        },
+        {
+            "city_name": "上川郡新得町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01635/"
+        },
+        {
+            "city_name": "上川郡鷹栖町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01452/"
+        },
+        {
+            "city_name": "上川郡当麻町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01454/"
+        },
+        {
+            "city_name": "上川郡東神楽町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01453/"
+        },
+        {
+            "city_name": "上川郡東川町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01458/"
+        },
+        {
+            "city_name": "上川郡美瑛町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01459/"
+        },
+        {
+            "city_name": "上川郡比布町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01455/"
+        },
+        {
+            "city_name": "上川郡和寒町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01464/"
+        },
+        {
+            "city_name": "亀田郡七飯町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01337/"
+        },
+        {
+            "city_name": "茅部郡鹿部町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01343/"
+        },
+        {
+            "city_name": "茅部郡森町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01345/"
+        },
+        {
+            "city_name": "川上郡標茶町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01664/"
+        },
+        {
+            "city_name": "川上郡弟子屈町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01665/"
+        },
+        {
+            "city_name": "北広島市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01234/"
+        },
+        {
+            "city_name": "北見市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01208/"
+        },
+        {
+            "city_name": "釧路郡釧路町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01661/"
+        },
+        {
+            "city_name": "釧路市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01206/"
+        },
+        {
+            "city_name": "久遠郡せたな町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01371/"
+        },
+        {
+            "city_name": "札幌市厚別区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01108/"
+        },
+        {
+            "city_name": "札幌市北区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01102/"
+        },
+        {
+            "city_name": "札幌市清田区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01110/"
+        },
+        {
+            "city_name": "札幌市白石区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01104/"
+        },
+        {
+            "city_name": "札幌市中央区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01101/"
+        },
+        {
+            "city_name": "札幌市手稲区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01109/"
+        },
+        {
+            "city_name": "札幌市豊平区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01105/"
+        },
+        {
+            "city_name": "札幌市西区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01107/"
+        },
+        {
+            "city_name": "札幌市東区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01103/"
+        },
+        {
+            "city_name": "札幌市南区",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01106/"
+        },
+        {
+            "city_name": "様似郡様似町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01608/"
+        },
+        {
+            "city_name": "沙流郡日高町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01601/"
+        },
+        {
+            "city_name": "沙流郡平取町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01602/"
+        },
+        {
+            "city_name": "標津郡標津町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01693/"
+        },
+        {
+            "city_name": "標津郡中標津町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01692/"
+        },
+        {
+            "city_name": "士別市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01220/"
+        },
+        {
+            "city_name": "島牧郡島牧村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01391/"
+        },
+        {
+            "city_name": "積丹郡積丹町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01405/"
+        },
+        {
+            "city_name": "斜里郡清里町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01546/"
+        },
+        {
+            "city_name": "斜里郡小清水町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01547/"
+        },
+        {
+            "city_name": "斜里郡斜里町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01545/"
+        },
+        {
+            "city_name": "白老郡白老町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01578/"
+        },
+        {
+            "city_name": "白糠郡白糠町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01668/"
+        },
+        {
+            "city_name": "寿都郡黒松内町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01393/"
+        },
+        {
+            "city_name": "寿都郡寿都町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01392/"
+        },
+        {
+            "city_name": "砂川市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01226/"
+        },
+        {
+            "city_name": "瀬棚郡今金町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01370/"
+        },
+        {
+            "city_name": "宗谷郡猿払村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01511/"
+        },
+        {
+            "city_name": "空知郡上砂川町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01425/"
+        },
+        {
+            "city_name": "空知郡上富良野町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01460/"
+        },
+        {
+            "city_name": "空知郡奈井江町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01424/"
+        },
+        {
+            "city_name": "空知郡中富良野町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01461/"
+        },
+        {
+            "city_name": "空知郡南幌町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01423/"
+        },
+        {
+            "city_name": "空知郡南富良野町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01462/"
+        },
+        {
+            "city_name": "滝川市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01225/"
+        },
+        {
+            "city_name": "伊達市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01233/"
+        },
+        {
+            "city_name": "千歳市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01224/"
+        },
+        {
+            "city_name": "天塩郡遠別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01486/"
+        },
+        {
+            "city_name": "天塩郡天塩町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01487/"
+        },
+        {
+            "city_name": "天塩郡豊富町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01516/"
+        },
+        {
+            "city_name": "天塩郡幌延町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01520/"
+        },
+        {
+            "city_name": "十勝郡浦幌町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01649/"
+        },
+        {
+            "city_name": "常呂郡置戸町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01550/"
+        },
+        {
+            "city_name": "常呂郡訓子府町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01549/"
+        },
+        {
+            "city_name": "常呂郡佐呂間町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01552/"
+        },
+        {
+            "city_name": "苫小牧市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01213/"
+        },
+        {
+            "city_name": "苫前郡初山別村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01485/"
+        },
+        {
+            "city_name": "苫前郡苫前町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01483/"
+        },
+        {
+            "city_name": "苫前郡羽幌町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01484/"
+        },
+        {
+            "city_name": "中川郡池田町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01644/"
+        },
+        {
+            "city_name": "中川郡音威子府村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01470/"
+        },
+        {
+            "city_name": "中川郡豊頃町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01645/"
+        },
+        {
+            "city_name": "中川郡中川町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01471/"
+        },
+        {
+            "city_name": "中川郡美深町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01469/"
+        },
+        {
+            "city_name": "中川郡本別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01646/"
+        },
+        {
+            "city_name": "中川郡幕別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01643/"
+        },
+        {
+            "city_name": "名寄市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01221/"
+        },
+        {
+            "city_name": "新冠郡新冠町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01604/"
+        },
+        {
+            "city_name": "爾志郡乙部町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01364/"
+        },
+        {
+            "city_name": "根室市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01223/"
+        },
+        {
+            "city_name": "野付郡別海町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01691/"
+        },
+        {
+            "city_name": "登別市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01230/"
+        },
+        {
+            "city_name": "函館市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01202/"
+        },
+        {
+            "city_name": "日高郡新ひだか町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01610/"
+        },
+        {
+            "city_name": "檜山郡厚沢部町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01363/"
+        },
+        {
+            "city_name": "檜山郡江差町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01361/"
+        },
+        {
+            "city_name": "檜山郡上ノ国町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01362/"
+        },
+        {
+            "city_name": "広尾郡大樹町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01641/"
+        },
+        {
+            "city_name": "広尾郡広尾町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01642/"
+        },
+        {
+            "city_name": "美唄市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01215/"
+        },
+        {
+            "city_name": "深川市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01228/"
+        },
+        {
+            "city_name": "二海郡八雲町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01346/"
+        },
+        {
+            "city_name": "富良野市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01229/"
+        },
+        {
+            "city_name": "古宇郡神恵内村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01404/"
+        },
+        {
+            "city_name": "古宇郡泊村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01403/"
+        },
+        {
+            "city_name": "古平郡古平町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01406/"
+        },
+        {
+            "city_name": "北斗市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01236/"
+        },
+        {
+            "city_name": "幌泉郡えりも町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01609/"
+        },
+        {
+            "city_name": "増毛郡増毛町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01481/"
+        },
+        {
+            "city_name": "松前郡福島町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01332/"
+        },
+        {
+            "city_name": "松前郡松前町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01331/"
+        },
+        {
+            "city_name": "三笠市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01222/"
+        },
+        {
+            "city_name": "室蘭市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01205/"
+        },
+        {
+            "city_name": "目梨郡羅臼町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01694/"
+        },
+        {
+            "city_name": "紋別郡遠軽町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01555/"
+        },
+        {
+            "city_name": "紋別郡雄武町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01563/"
+        },
+        {
+            "city_name": "紋別郡興部町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01561/"
+        },
+        {
+            "city_name": "紋別郡滝上町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01560/"
+        },
+        {
+            "city_name": "紋別郡西興部村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01562/"
+        },
+        {
+            "city_name": "紋別郡湧別町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01559/"
+        },
+        {
+            "city_name": "紋別市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01219/"
+        },
+        {
+            "city_name": "山越郡長万部町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01347/"
+        },
+        {
+            "city_name": "夕張郡栗山町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01429/"
+        },
+        {
+            "city_name": "夕張郡長沼町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01428/"
+        },
+        {
+            "city_name": "夕張郡由仁町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01427/"
+        },
+        {
+            "city_name": "夕張市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01209/"
+        },
+        {
+            "city_name": "勇払郡厚真町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01581/"
+        },
+        {
+            "city_name": "勇払郡安平町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01585/"
+        },
+        {
+            "city_name": "勇払郡占冠村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01463/"
+        },
+        {
+            "city_name": "勇払郡むかわ町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01586/"
+        },
+        {
+            "city_name": "余市郡赤井川村",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01409/"
+        },
+        {
+            "city_name": "余市郡仁木町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01407/"
+        },
+        {
+            "city_name": "余市郡余市町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01408/"
+        },
+        {
+            "city_name": "利尻郡利尻町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01518/"
+        },
+        {
+            "city_name": "利尻郡利尻富士町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01519/"
+        },
+        {
+            "city_name": "留萌郡小平町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01482/"
+        },
+        {
+            "city_name": "留萌市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01212/"
+        },
+        {
+            "city_name": "礼文郡礼文町",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01517/"
+        },
+        {
+            "city_name": "稚内市",
+            "city_url": "https://www.ekiten.jp/sitemap/p01/a01214/"
+        }
+    ]
+}
